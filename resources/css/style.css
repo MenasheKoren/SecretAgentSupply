@@ -41,7 +41,7 @@ nav {
   width: auto;
 }
 
-main .container {
+.product-grid {
   background-color: white;
   display: flex;
   flex-flow: row wrap;
