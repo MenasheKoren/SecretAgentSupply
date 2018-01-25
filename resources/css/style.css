@@ -3,7 +3,12 @@ html {
   color: white;
   font-family: Helvetica;
   font-size: 18px;
+
+}
+
+body {
   width: 960px;
+  justify-content: center;
 }
 
 .container-content {
@@ -48,22 +53,25 @@ a {
   margin: 0;
 }
 
-.container #banner {
+.container #moto {
   background-color: black;
   display: flex;
   flex-direction: column;
   font-weight: bold;
   height: auto;
   width: 20rem;
+  margin-left: 3rem;
+  margin-top: 9rem;
 }
 
-.container-content #banner p {
-  font-weight: bold;
+#moto p {
   font-size: 2rem;
 }
 
-.container-content h1 {
+#moto h1 {
   font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
 }
 
 nav {
