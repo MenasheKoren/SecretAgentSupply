@@ -1,6 +1,9 @@
 html {
   background-color: black;
   color: white;
+  font-family: Helvetica;
+  font-size: 18px;
+
 }
 
 .container-content {
@@ -14,7 +17,7 @@ a {
 }
 
 nav {
-  background-color: red;
+  background-color: firebrick;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
