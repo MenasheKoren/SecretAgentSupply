@@ -1,4 +1,19 @@
 html {
   background-color: black;
   color: white;
+  margin: 0;
+  width: 100%;
+}
+
+.banner {
+  background-image: url(../images/moto.jpeg);
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.banner .flex-container-content {
+  background-color: black max-width: 100%;
+  height: auto;
+  display: block;
 }
