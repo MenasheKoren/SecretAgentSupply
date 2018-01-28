@@ -66,6 +66,9 @@ a {
   width: 20rem;
   margin-left: 3rem;
   margin-top: 9rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #moto h1 {
@@ -74,7 +77,6 @@ a {
 
 #moto h4 {
   font-size: 1rem;
-  padding-top: 2rem;
   padding-bottom: 0.25rem;
 }
 
