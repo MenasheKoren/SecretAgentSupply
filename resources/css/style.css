@@ -22,11 +22,8 @@ a {
   font-weight: bold;
 }
 
-li {
-  display: inline-flex;
-  justify-content: space-around;
 
-}
+
 
 #logo {
   display: flex;
@@ -83,10 +80,15 @@ li {
 
 nav {
   background-color: firebrick;
-  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+
 
 .product-grid {
   background-color: white;
