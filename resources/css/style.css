@@ -64,11 +64,9 @@ a {
   font-weight: bold;
   height: auto;
   width: 20rem;
-  padding-left: 3rem;
+  padding: 2rem 3rem;
   margin-top: 9rem;
   text-align: left;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 #moto h1 {
