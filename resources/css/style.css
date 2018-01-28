@@ -22,7 +22,7 @@ a {
   color: white;
 }
 
-.logo {
+#logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -32,7 +32,7 @@ a {
   font-size: 1rem;
 }
 
-.logo img {
+#logo img {
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
@@ -54,7 +54,7 @@ a {
   margin: 0;
 }
 
-.container #moto {
+#moto {
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -79,11 +79,12 @@ nav {
   background-color: firebrick;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .product-grid {
   background-color: white;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
