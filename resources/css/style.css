@@ -83,11 +83,15 @@ nav ul {
   padding-bottom : 0.75rem;
 }
 
-.product-grid .container {
-  display         : flex;
-  flex-flow       : row wrap;
-  justify-content : space-between;
+.product-grid {
   background-color: white;
+}
+
+.product-grid .container {
+  display        : flex;
+  flex-flow      : row wrap;
+  justify-content: space-between;
+
 }
 
 .product-grid img {
@@ -97,7 +101,7 @@ nav ul {
   background-color: white;
 }
 
-#glasses {
+#glasses .container-content {
   width: 30%;
 
 }
@@ -106,4 +110,21 @@ nav ul {
   border       : 4px solid black;
   margin-top   : 3rem;
   margin-bottom: 3rem;
+}
+
+.info {
+  display         : flex;
+  flex-direction  : row;
+  justify-content : center;
+  align-items     : center;
+  background-color: black;
+}
+
+.info-content {
+  margin-top    : 3rem;
+  margin-bottom : 4rem;
+  width         : 35%;
+  padding-left  : 2rem;
+  padding-top   : 1rem;
+  padding-bottom: 1rem;
 }
