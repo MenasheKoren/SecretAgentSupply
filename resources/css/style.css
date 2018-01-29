@@ -1,119 +1,106 @@
-html
-{
-    font-family: Helvetica;
-    font-size: 18px;
+html {
+  font-family     : Helvetica;
+  font-size       : 18px;
 
-    color: white;
-    background-color: black;
+  color           : white;
+  background-color: black;
 }
 
-.container
-{
-    width: 960px;
-    margin: auto;
+.container {
+  width : 960px;
+  margin: auto;
 }
 
-.container-content
-{
-    display: block;
+.container-content {
+  display         : block;
 
-    text-align: center;
+  text-align      : center;
 
-    background-color: black;
+  background-color: black;
 }
 
-a
-{
-    font-weight: bold;
+a {
+  font-weight: bold;
 
-    color: white;
+  color      : white;
 }
 
-#logo
-{
-    font-size: 1rem;
+#logo {
+  font-size      : 1rem;
 
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: flex-start;
+  display        : flex;
+  align-items    : center;
+  flex-direction : row;
+  justify-content: flex-start;
 
-    margin-top: .66rem;
-    margin-bottom: .66rem;
+  margin-top     : 0.66rem;
+  margin-bottom  : 0.66rem;
 }
 
-#logo img
-{
-    height: 1.5rem;
-    margin-right: 1rem;
-    margin-left: .5rem;
+#logo img {
+  height      : 1.5rem;
+  margin-right: 1rem;
+  margin-left : 0.5rem;
 }
 
-#banner
-{
-    display: flex;
-    overflow: hidden;
-    align-items: center;
-    flex-direction: row;
-    justify-content: flex-start;
+#banner {
+  display          : flex;
+  overflow         : hidden;
+  align-items      : center;
+  flex-direction   : row;
+  justify-content  : flex-start;
 
-    width: 100%;
-    height: 25rem;
-    margin: 0;
+  width            : 100%;
+  height           : 25rem;
+  margin           : 0;
 
-    background-image: url('../images/moto.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image : url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size  : cover;
 }
 
-#moto
-{
-    font-weight: bold;
+#moto {
+  font-weight     : bold;
 
-    display: flex;
-    flex-direction: column;
+  display         : flex;
+  flex-direction  : column;
 
-    width: 20rem;
-    height: auto;
-    margin-top: 9rem;
-    padding: 2rem 3rem;
+  width           : 20rem;
+  height          : auto;
+  margin-top      : 9rem;
+  padding         : 2rem 3rem;
 
-    text-align: left;
+  text-align      : left;
 
-    background-color: black;
+  background-color: black;
 }
 
-#moto h1
-{
-    font-size: 2rem;
+#moto h1 {
+  font-size: 2rem;
 }
 
-#moto h4
-{
-    font-size: 1rem;
+#moto h4 {
+  font-size     : 1rem;
 
-    padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 
-nav
-{
-    background-color: firebrick;
+nav {
+  background-color: firebrick;
 }
 
-nav ul
-{
-    display: flex;
-    justify-content: space-between;
+nav ul {
+  display        : flex;
+  justify-content: space-between;
 
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+  padding-top    : 0.75rem;
+  padding-bottom : 0.75rem;
 }
 
-.product-grid
-{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.product-grid {
+  display         : flex;
+  flex-flow       : row wrap;
+  justify-content : space-between;
 
-    background-color: white;
+  background-color: white;
 }
