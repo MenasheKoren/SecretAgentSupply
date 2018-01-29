@@ -78,30 +78,32 @@ nav {
 
 nav ul {
   display        : flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top    : 0.75rem;
   padding-bottom : 0.75rem;
 }
 
-.product-grid {
+.product-grid .container {
+  display         : flex;
+  flex-flow       : row wrap;
+  justify-content : space-between;
   background-color: white;
 }
 
-.product-grid .container {
-  display        : flex;
-  flex-flow      : row wrap;
-  justify-content: space-between;
-
+.product-grid img {
+  height          : 9rem;
+  padding-top     : 2rem;
+  padding-bottom  : 2rem;
+  background-color: white;
 }
 
-.product-grid img {
-  height : 9rem;
-  padding: 2rem;
+#glasses {
+  width: 30%;
+
 }
 
 .product-grid .container-content {
-  background-color: inherit;
-  border          : 4px solid black;
-  margin-top      : 3rem;
-  margin-bottom   : 3rem;
+  border       : 4px solid black;
+  margin-top   : 3rem;
+  margin-bottom: 3rem;
 }
