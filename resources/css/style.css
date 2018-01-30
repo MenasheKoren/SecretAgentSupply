@@ -116,22 +116,19 @@ nav ul {
 
 .info {
   display        : flex;
-  flex-direction : row;
-  justify-content: flex-end;
   text-align     : left;
+  flex-direction : row;
+  justify-content: space-between;
+  width          : 100%;
 }
 
 .info-content {
   display         : flex;
-  flex-direction  : column;
   margin-bottom   : 4rem;
   color           : black;
   background-color: white;
-  /**
-  * padding-top
-  *
-  * : 0;
-  */
+  flex-direction  : column;
+
 }
 
 .info-content-title {
