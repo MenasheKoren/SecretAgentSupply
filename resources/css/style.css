@@ -93,23 +93,20 @@ nav ul {
   display        : flex;
   flex-flow      : row wrap;
   justify-content: space-between;
-
 }
 
 .product-grid img {
-  height          : 9rem;
-  padding         : 2rem 0;
-  background-color: white;
-  width           : auto;
   display         : block;
-
+  width           : auto;
+  height          : 9rem;
+  padding         : 2rem;
+  background-color: white;
 }
 
 .product-grid .container-content {
   margin    : 3rem auto;
   border    : 4px solid black;
   text-align: left;
-
 }
 
 .item-title {
@@ -119,17 +116,22 @@ nav ul {
 
 .info {
   display         : flex;
-  background-color: black;
-  align-items     : center;
+  color           : black;
+  background-color: white;
   flex-direction  : row;
-  justify-content : space-between;
 }
 
 .info-content {
-  /* width  : 35%; */
-  margin : 3rem 3rem 4rem;
-  padding: 1rem 2rem;
+  text-align   : left;
+  margin-bottom: 4rem;
+  padding-top  : 0;
+}
 
+.info-content-title {
+  margin          : 3rem 3rem 4rem;
+  padding         : 1rem 2rem;
+  color           : white;
+  background-color: black;
 }
 
 footer {
