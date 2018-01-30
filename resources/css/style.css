@@ -96,14 +96,22 @@ nav ul {
   background-color: white;
   width           : auto;
   display         : block;
-
+  <<<<<<< HEAD;
 }
 
 .product-grid .container-content {
-  margin    : 3rem auto;
-  border    : 4px solid black;
-  text-align: left;
+  margin                 : 3rem auto;
+  border                 : 4px solid black;
+  text-align             : left;
+  ======= background-clip: content-box;
+}
 
+.product-grid .container-content {
+  margin-top   : 3rem;
+  margin-bottom: 3rem;
+  border       : 4px solid black;
+  text-align   : left;
+  >>>>>>> refs/remotes/origin/master;
 }
 
 .info {
@@ -124,4 +132,12 @@ footer {
   text-align : left;
   line-height: 5rem;
 
+}
+
+footer .container {
+  display        : block;
+  text-align     : left;
+  vertical-align : middle;
+  height         : 5rem;
+  background-clip: border-box;
 }
