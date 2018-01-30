@@ -98,16 +98,17 @@ nav ul {
   padding-top     : 2rem;
   padding-bottom  : 2rem;
   background-color: white;
-}
-
-#glasses .container-content {
-  width: 30%;
+  width           : auto;
+  display         : block;
+  background-clip : content-box;
 }
 
 .product-grid .container-content {
   margin-top   : 3rem;
   margin-bottom: 3rem;
   border       : 4px solid black;
+  text-align   : left;
+
 }
 
 .info {
@@ -125,4 +126,12 @@ nav ul {
   padding-top   : 1rem;
   padding-bottom: 1rem;
   padding-left  : 2rem;
+}
+
+footer .container {
+  display        : block;
+  text-align     : left;
+  vertical-align : middle;
+  height         : 5rem;
+  background-clip: border-box;
 }
