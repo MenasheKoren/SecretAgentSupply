@@ -10,12 +10,12 @@ html {
   margin: 0 auto;
 }
 
-.container-content {
+/* .container-content {
   display: block;
   width: 30%;
   background-color: black;
   text-align: center;
-}
+} */
 
 a {
   color: white;
@@ -105,7 +105,7 @@ main {
   justify-content: space-between;
 }
 
-.image img {
+.product img {
   display: flex;
   height: 9rem;
   padding: 2rem 0;
@@ -115,33 +115,33 @@ main {
   justify-content: center;
 }
 
-.item-title {
+/* .item-title {
   padding: 0.5rem 0;
   text-align: center;
-}
+} */
 
-.info {
+/* .info {
   display: flex;
   width: 100%;
   text-align: left;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.info-content {
+/* .info-content {
   display: flex;
   margin-bottom: 4rem;
   color: black;
   background-color: white;
   flex-direction: column;
-}
+} */
 
-.info-content-title {
+/* .info-content-title {
   display: inline-block;
   padding: 1rem 2rem;
   color: white;
   background-color: black;
-}
+} */
 
 footer {
   line-height: 5rem;
