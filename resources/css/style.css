@@ -21,10 +21,10 @@ h4 {
 }
 
 h2 {
-  color: white;
-  background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  color: white;
+  background-color: black;
 }
 
 #logo {
@@ -101,32 +101,35 @@ main {
   flex-flow: row wrap;
   justify-content: space-between;
 }
-
-.product ul span {
+/* .product ul span { width: 100%; } */
+.product ul li {
   width: 30%;
+  border: 4px solid black;
+  background-color: white;
 }
 
 .product img {
+  display: flex;
+  width: 100%;
   height: 9rem;
   padding: 2rem 0;
-  border: 4px solid black;
-  background-color: white;
   align-items: center;
+  justify-content: center;
 }
 
 .product h2 {
-  text-align: center;
   margin-top: 0;
+  text-align: center;
 }
 
 .info {
   display: flex;
+  width: 100%;
   margin-top: 3rem;
   margin-bottom: 4rem;
   text-align: left;
-  justify-content: space-between;
   align-content: center;
-  width: 100%;
+  justify-content: space-between;
 }
 
 .info h2 {
