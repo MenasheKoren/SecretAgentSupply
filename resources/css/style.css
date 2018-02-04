@@ -118,6 +118,10 @@ main {
   object-fit: contain;
 }
 
+img #glasses {
+  width: 30%;
+}
+
 .product h2 {
   margin-top: 0;
   text-align: center;
@@ -127,7 +131,6 @@ main {
   display: flex;
   width: 100%;
   margin-top: 3rem;
-  margin-bottom: 4rem;
   text-align: left;
   align-content: center;
   justify-content: space-between;
@@ -148,7 +151,8 @@ p {
 }
 
 footer {
-  align-content: center;
-  line-height: 5rem;
+  display: flex;
+  height: 5rem;
+  align-items: center;
 }
 @media only screen and (max-width : 1024px) {}
