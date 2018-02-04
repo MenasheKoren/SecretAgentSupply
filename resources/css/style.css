@@ -118,10 +118,6 @@ main {
   object-fit: contain;
 }
 
-img #glasses {
-  width: 30%;
-}
-
 .product h2 {
   margin-top: 0;
   text-align: center;
