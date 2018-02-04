@@ -23,6 +23,8 @@ h4 {
 h2 {
   color: white;
   background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #logo {
@@ -112,24 +114,35 @@ main {
   align-items: center;
 }
 
+.product h2 {
+  text-align: center;
+}
+
 .info {
   display: flex;
   margin-top: 3rem;
   margin-bottom: 4rem;
   text-align: left;
   justify-content: space-between;
+  align-content: center;
+  width: 100%;
 }
 
 .info h2 {
-  padding: 0.5rem 2rem 0.5rem 0;
+  padding-left: 2rem;
+  text-align: left;
 }
 
 p {
   color: black;
 }
 
+.info span {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+
 footer {
-  margin-top: 0;
   align-content: center;
   line-height: 5rem;
 }
