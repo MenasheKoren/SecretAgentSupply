@@ -115,6 +115,7 @@ main {
   padding: 2rem 0;
   align-items: center;
   justify-content: center;
+  object-fit: contain;
 }
 
 .product h2 {
