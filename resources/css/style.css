@@ -101,17 +101,20 @@ main {
   flex-flow: row wrap;
   justify-content: space-between;
 }
-
-.product ul span {
+/* .product ul span {
+  width: 100%;
+} */
+.product ul li {
   width: 30%;
+  border: 4px solid black;
+  background-color: white;
+  align-items: center;
 }
 
 .product img {
   height: 9rem;
   padding: 2rem 0;
-  border: 4px solid black;
-  background-color: white;
-  align-items: center;
+  width: 30%;
 }
 
 .product h2 {
